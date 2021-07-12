@@ -1,0 +1,33 @@
+/*--------------GLOBAL------------*/
+/*--------------------------------*/
+:root {
+  --dark-blue: hsl(233, 47%, 7%);
+  --desaturated-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+  --main-paragraph-white: hsla(0, 0%, 100%, 0.75);
+  --stat-headings-white: hsla(0, 0%, 100%, 0.6);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  /* font-family: "Lexend Deca", sans-serif; */
+}
+/*--------------MAIN--------------*/
+/*--------------------------------*/
+
+/*--------------FOOTER--------------*/
+/*----------------------------------*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
